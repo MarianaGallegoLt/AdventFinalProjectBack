@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.8" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Advent.FinalProject.Core\Advent.FinalProject.Core.csproj" />
+    <ProjectReference Include="..\Advent.FinalProject.DataAccess\Advent.FinalProject.DataAccess.csproj" />
+    <ProjectReference Include="..\Advent.FinalProject.Repositories\Advent.FinalProject.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
